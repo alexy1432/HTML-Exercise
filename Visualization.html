@@ -16,56 +16,61 @@
     }
 </style>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
-                <div class="container-fluid">
-                  <a class="navbar-brand bg-success text-white m-2 pl-2 pr-2" href="Landing.html">Latitude</a>
-                    <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                      <ul class="nav navbar-nav">
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <a class="dropdown-item" href="visualization.html" target="_blank">Max Temperature</a>
-                              <a class="dropdown-item" href="visualization2.html" target="_blank">Humidity</a>
-                              <a class="dropdown-item" href="visualization3.html" target="_blank">Cloudiness</a>
-                              <a class="dropdown-item" href="visualization4.html" target="_blank">Wind Speed</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#" target="_blank">Comparison</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="data.html" target="_blank">Data</a>
-                        </li>
-                     </ul>
-                  </div>
-                  </div>
-                  
-              </nav>
-              <div class="container-fluid">
-                    <div class="row mt-5 ml-5 mr-5 mb-5">
-                      <div class="col-lg-7 mb-6" style="background-color: white;">
-                        <div class="thumbnail">
-                          <h1 class="text-success pt-4">Max Temperature</h1>
-                          <hr>
-                          <img class="img-responsive" src="images/Fig1.png" align="center" alt="Latitude vs Max Temperture"  style="width:100%">
-                          <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+            <div class="container-fluid">
+              <a class="navbar-brand bg-success text-white m-2 pl-2 pr-2" href="Landing.html">Lattitude</a>
+                <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              <!-- Create collapse bar -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                  <ul class="nav navbar-nav">
+                    <!-- Create dropdown menu -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="Visualization.html" target="_blank">Max Temperature</a>
+                          <a class="dropdown-item" href="Visualization2.html" target="_blank">Humidity</a>
+                          <a class="dropdown-item" href="Visualization3.html" target="_blank">Cloudiness</a>
+                          <a class="dropdown-item" href="Visualization4.html" target="_blank">Wind Speed</a>
                         </div>
-                      </div>
-                      <div class="col-lg-4 ml-4 mt-4" style="background-color: white;">
-                        <h2 class="text-success pt-4">Visualizations</h1>
-                        <hr>
-                        <a href="visualization.html" target="_blank">
-                          <img class="img-responsive" src="images/Fig1.png" alt="Latitude vs Max Temperture" style="width:45%"></a>
-                        <a href="visualization2.html" target="_blank">
-                          <img class="img-responsive" src="images/Fig2.png" alt="Latitude vs Max Temperture" style="width:45%"></a>
-                        <a href="visualization3.html" target="_blank">
-                          <img class="img-responsive" src="images/Fig3.png" alt="Latitude vs Max Temperture" style="width:45%"></a>
-                        <a href="visualization4.html" target="_blank">
-                          <img class="img-responsive" src="images/Fig4.png" alt="Latitude vs Max Temperture" style="width:45%"></a>
-                      </div>
-                      <hr>
-                    </div>
-                  </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Comparisons.html" target="_blank">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Data.html" target="_blank">Data</a>
+                    </li>
+                 </ul>
+              </div>
+              </div>
+          </nav>
+          <div class="container-fluid">
+            <div class="row ml-5 mt-5 mr-5 mb-5" style="background-color: white;">
+              <h1 class="text-success pt-4 pl-4">Comparison: Latitude vs X</h1>
+              <hr>
+              <div class="col-md-10 ml-5 mt-4">
+                <p> Click any plot to get an in-deth analysis.</p>
+              </div>
+                <div class="col-md-5 text-center ml-5">
+                  <h3 class="text-success pt-4 pl-4">vs. Max Temperature</h3>
+                  <a href="Visualization.html" target="_blank">
+                    <img class="img-responsive" src="images/Fig1.png" alt="Latitude vs Max Temperture" style="width:100%"></a></div>
+                <div class="col-md-5 text-center ml-5">
+                  <h3 class="text-success pt-4 pl-4">vs. Humidity</h3>
+                  <a href="Visualization2.html" target="_blank">
+                    <img class="img-responsive" src="images/Fig2.png" alt="Latitude vs Max Temperture" style="width:100%"></a></div>
+                <div class="col-md-5 text-center ml-5">
+                  <h3 class="text-success pt-4 pl-4">vs. Cloudiness</h3>
+                  <a href="Visualization3.html" target="_blank">
+                    <img class="img-responsive" src="images/Fig3.png" alt="Latitude vs Max Temperture" style="width:100%"></a></div>
+                <div class="col-md-5 text-center ml-5">
+                  <h3 class="text-success pt-4 pl-4">vs. Wind Speed</h3>
+                  <a href="Visualization4.html" target="_blank">
+                  <img class="img-responsive" src="images/Fig4.png" alt="Latitude vs Max Temperture" style="width:100%"></a></div>
+              </div>
+            </div>
+          </div>
+        </body>
+      
+        <br>
